@@ -1,13 +1,22 @@
 {
   "name": "text2locale",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Extract all the texts of any project with HTML files and generate a KV (Key-Value) file.",
   "main": "cli.js",
   "bin": "cli.js",
+  "private": "false",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["extract", "text", "localization", "i18n"],
+  "keywords": [
+    "extract",
+    "text",
+    "localization",
+    "i18n"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "MIT",
   "files": [
     "cli.js",
@@ -16,12 +25,12 @@
     "README.md"
   ],
   "author": {
-		"name": "juliandavidmr",
-		"email": "anlijudavid@hotmail.com",
-		"url": "https://anlijudavid.netlify.app/"
+    "name": "juliandavidmr",
+    "email": "anlijudavid@hotmail.com",
+    "url": "https://anlijudavid.netlify.app/"
   },
   "engines": {
-		"node": ">=10"
+    "node": ">=10"
   },
   "dependencies": {
     "@sindresorhus/slugify": "^1.1.0",
