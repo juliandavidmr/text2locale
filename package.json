@@ -1,6 +1,6 @@
 {
   "name": "text2locale",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Extract all the texts of any project with HTML files and generate a KV (Key-Value) file.",
   "main": "cli.js",
   "bin": "cli.js",
