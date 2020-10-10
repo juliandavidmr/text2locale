@@ -1,0 +1,22 @@
+{
+  "name": "lazy-extractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sindresorhus/slugify": "^1.1.0",
+    "jsdom": "^16.4.0",
+    "shelljs": "^0.8.4",
+    "yargs": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/yargs": "^15.0.8"
+  }
+}
