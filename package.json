@@ -1,15 +1,28 @@
 {
-  "name": "lazy-extractor",
+  "name": "text2locale",
   "version": "1.0.0",
-  "description": "",
+  "description": "Extract all the texts of any project with HTML files and generate a KV (Key-Value) file.",
   "main": "cli.js",
   "bin": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["extract", "text", "localization", "i18n"],
   "license": "MIT",
+  "files": [
+    "cli.js",
+    "files.js",
+    "portrait.png",
+    "README.md"
+  ],
+  "author": {
+		"name": "juliandavidmr",
+		"email": "anlijudavid@hotmail.com",
+		"url": "https://anlijudavid.netlify.app/"
+  },
+  "engines": {
+		"node": ">=10"
+  },
   "dependencies": {
     "@sindresorhus/slugify": "^1.1.0",
     "jsdom": "^16.4.0",
