@@ -8,7 +8,7 @@ Extract all the texts of any project with HTML files and generate a KV (Key-Valu
 ## Install
 
 ```bash
-npm install @juliandavidmr/text2locale
+npm install -g @juliandavidmr/text2locale
 ```
 
 ## Usage
