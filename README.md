@@ -7,14 +7,14 @@ Extract all the texts of any project with HTML files and generate a KV (Key-Valu
 
 ## Install
 
-```bash
-npm install -g @juliandavidmr/text2locale
+```sh
+npm install -g github:juliandavidmr/text2locale
 ```
 
 ## Usage
 
 ```bash
-text2locale input "./example/src" -o "./example/locale/" -l en -t es,de,zh
+$ text2locale input "./example/src" -o "./example/locale/" -l en -t es,de,zh
 ```
 
 > More command info: `$ text2locale input --help`
