@@ -5,8 +5,16 @@
 Extract all the texts of any project with HTML files and generate a KV (Key-Value) file,
 `key` = reference key, `value` = extracted text.
 
+## Install
+
 ```bash
-$ text2locale input "./example/src" -o "./example/locale/" -l en -t es,de,zh
+npm install @juliandavidmr/text2locale
+```
+
+## Usage
+
+```bash
+text2locale input "./example/src" -o "./example/locale/" -l en -t es,de,zh
 ```
 
 > More command info: `$ text2locale input --help`
